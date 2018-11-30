@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/github.io/deer-white.github.io/precache-manifest.b5c1f39f9ce1c02010f3c796bc38dc8f.js"
+  "/deer-white.github.io/precache-manifest.76d5fb85ac7a7c4969e20e9564d3b95a.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/github.io/deer-white.github.io/index.html", {
+workbox.routing.registerNavigationRoute("/deer-white.github.io/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
